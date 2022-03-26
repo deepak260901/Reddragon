@@ -181,6 +181,62 @@ export default class MessageHandler {
       return void this.client.log(err.message, true);
     }
   };
+return void this.client.log(
+				`${chalk.green("CMD")} ${chalk.yellow(
+					`${args[0]}[${args.length - 1}]`
+				)} from ${chalk.green(sender.username)} in ${chalk.cyanBright(
+					groupMetadata?.subject || "DM"
+				)}`
+			);
+		const command = this.commands.get(cmd) || this.aliases.get(cmd);
+		this.client.log(
+			`${chalk.green("CMD")} ${chalk.yellow(
+				`${args[0]}[${args.length - 1}]`
+			)} from ${chalk.green(sender.username)} in ${chalk.cyanBright(
+				groupMetadata?.subject || "DM"
+			)}`
+		);
+			if (!command)
+				return void M.reply( await request.buffer(`https://telegra.ph/file/c534b659a643e8b5c8ddf.mp4`),
+        MessageType.video,
+                    undefined,
+                    undefined,
+                    `No such command, Baka! Have you never seen someone use the command *${this.client.config.prefix}help*`,
+                    undefined
+                )
+		const user = await this.client.getUser(M.sender.jid);
+		if (user.ban) return void M.reply("You're Banned from using commands.");
+		const state = await this.client.DB.disabledcommands.findOne({
+			command: command.config.command,
+		});
+		if (state)
+			return void M.reply(
+				`✖ This command is disabled${
+					state.reason ? ` for ${state.reason}` : ""
+				}`
+			);
+		if (!command.config?.dm && M.chat === "dm")
+			return void M.reply("This command can only be used in groups");
+		if (
+			command.config?.modsOnly &&
+			!this.client.config.mods?.includes(M.sender.jid)
+		) {
+			return void M.reply(`Only MODS & chey are allowed to use this command.`);
+		}
+		if (command.config?.adminOnly && !M.sender.isAdmin)
+			return void M.reply(
+				`This command is only meant for the group admins, Baka!`
+			);
+		try {
+			await command.run(M, this.parseArgs(args));
+			if (command.config.baseXp) {
+				await this.client.setXp(M.sender.jid, command.config.baseXp || 10, 50);
+			}
+			// eslint-disable-next-line @typescript-eslint/no-explicit-any
+		} catch (err: any) {
+			return void this.client.log(err.message, true);
+		}
+	};
 
   moderate = async (M: ISimplifiedMessage): Promise<void> => {
     if (M.sender.isAdmin) return void null;
