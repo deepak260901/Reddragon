@@ -159,7 +159,7 @@ export default class EventHandler {
         goodbye.toBuffer(),
         MessageType.image,
         {
-          caption: `Goodbye *@${
+          caption: `Goodbye darling 💕 *@${
             event.participants[0].split("@")[0]
           }* 👋🏻, we're probably not gonna miss you anymore.`,
           contextInfo,
@@ -167,7 +167,7 @@ export default class EventHandler {
       ));
     }
     if (promote) {
-      const text = `Congratulations *@${
+      const text = `Congratulations darling 💕 *@${
         event.participants[0].split("@")[0]
       }*, you're now an admin.`;
       return void this.client.sendMessage(
@@ -178,7 +178,7 @@ export default class EventHandler {
       );
     }
     if (demote) {
-      const text = `Wooah, looks like *@${
+      const text = `Wooah, darling 💕 looks like *@${
         event.participants[0].split("@")[0]
       }* got demoted.`;
       return void this.client.sendMessage(
