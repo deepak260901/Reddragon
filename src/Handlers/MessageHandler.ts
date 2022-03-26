@@ -94,7 +94,7 @@ export default class MessageHandler {
             return void M.reply(res.data.cnt);
           })
           .catch(() => {
-            M.reply(`Well...`);
+            M.reply(`Well darling 💕...`);
           });
       }
     }
@@ -126,7 +126,15 @@ export default class MessageHandler {
         )} from ${chalk.green(sender.username)} in ${chalk.cyanBright(
           groupMetadata?.subject || "DM"
         )}`
-      );
+
+if (!command)
+				return void M.reply( await request.buffer(`https://telegra.ph/file/c534b659a643e8b5c8ddf.mp4`),
+        MessageType.video,
+                    undefined,
+                    undefined,
+                    `No such command, Baka! Have you never seen someone use the command *${this.client.config.prefix}help*`,
+                    undefined
+                )
     const bot = await (await this.client.getGroupData(M.from)).bot;
     const command = this.commands.get(cmd) || this.aliases.get(cmd);
     const reservedCommands = ["switch", "hi"];
