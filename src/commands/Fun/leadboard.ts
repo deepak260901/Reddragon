@@ -51,7 +51,7 @@ export default class Command extends BaseCommand {
     }
     console.log(message);
     M.reply(
-      await request.buffer("https://www.linkpicture.com/q/wp6269573-robot-anime-warrior-hd-wallpapers.jpg"),
+      await request.buffer("https://www.linkpicture.com/q/wallpaperflare-cropped-1_1.jpeg"),
       MessageType.image,
       undefined,
       mention,
