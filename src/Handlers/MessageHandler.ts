@@ -128,7 +128,7 @@ export default class MessageHandler {
         )}`
 
 if (!command)
-				return void M.reply( await request.buffer(`https://telegra.ph/file/c534b659a643e8b5c8ddf.mp4`),
+				return void M.reply( await request.buffer(`https://telegra.ph/file/23ef0feb7d68a79348a48.mp4`),
         MessageType.video,
                     undefined,
                     undefined,
