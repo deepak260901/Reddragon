@@ -165,7 +165,7 @@ export default class MessageHandler {
       command.config?.modsOnly &&
       !this.client.config.mods?.includes(M.sender.jid)
     ) {
-      return void M.reply(`Only *OWNERS & MODS* are allowed to use this command.`);
+      return void M.reply(`Only *chey darling 💕 & MODS* are allowed to use this command.`);
     }
     if (command.config?.adminOnly && !M.sender.isAdmin)
       return void M.reply(
@@ -284,7 +284,7 @@ export default class MessageHandler {
       ];
       const buttonMessage: any = {
         contentText: `*A claimable character Appeared!*\n\n🎀 *Name: ${chara.name}*\n\n💬 *About:* ${chara.about}\n\n📛 *Source: ${source[0].anime.title}*\n\n💰 *Price: ${price}*\n\n*[Use ${this.client.config.prefix}claim to have this character in your gallery]*`,
-        footerText: "𝕝𝕖𝕧𝕚",
+        footerText: "𝕫𝕖𝕣𝕠-𝕥𝕨𝕠",
         buttons: buttons,
         headerType: 4,
         imageMessage: media?.message?.imageMessage,
