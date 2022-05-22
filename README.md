@@ -1,7 +1,7 @@
 <h1 align="center">~ 💫𝓦𝓮𝓵𝓬𝓸𝓶𝓮❤️
 <div align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/SrrMdrj/anime-pink-hair.gif" alt="anime-pink-hair" border="0"></a><br />
-💫Zero-Two: A WhatsApp BOT🖤💖 WITH RICH✨ NSFW🔞FEATURES AND RICH ANIME FEATURES 🌟*
+💫Reddragon: A WhatsApp BOT🖤💖 WITH RICH✨ NSFW🔞FEATURES AND RICH ANIME FEATURES 🌟*
 
 
 ## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/919015286428) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
@@ -10,7 +10,7 @@
 > A Fully Modular and Efficient Bot <br>
 
 Button : If you are deploying normally
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Whatup364/Chitoge/blob/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/deepak260901/reddragon/blob/main)
 
 Button : If you are deploying from a fork
 
