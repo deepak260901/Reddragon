@@ -4,7 +4,7 @@
 💫Zero-Two: A WhatsApp BOT🖤💖 WITH RICH✨ NSFW🔞FEATURES AND RICH ANIME FEATURES 🌟*
 
 
-## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/918373017400) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
+## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/919015286428) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
 
 
 > A Fully Modular and Efficient Bot <br>
@@ -59,13 +59,3 @@ for more information.
 ## 🎗Help
 Please give this repo a ⭐ if it helped you.
  
-## 🚀The WhatsApp bots that I recomended🚀
-<details>
-<summary>Click Here</summary>
-
-![Kaoi][![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=PrajjwalDatir&repo=Kaoi&theme=buefy)](https://github.com/PrajjwalDatir/kaoi)
-
-![Chitoge][![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ShineiIchijo&repo=Chitoge&theme=buefy)](https://github.com/ShinNouzen/Chitoge)
-
-![Cara_public][![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=iamherok&repo=Cara_public&theme=buefy)](https://github.com/iamherok/Cara_public)
-
